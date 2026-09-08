@@ -109,49 +109,6 @@ La plataforma permite a los usuarios explorar colecciones de sweaters, tops, ves
 
 ---
 
-## 📂 Estructura del Proyecto
-
-AMRYLUXE MERN ECOMMERCE/
-├── backend/
-│ ├── config/ # Configuración (DB, Stripe)
-│ ├── controllers/ # Lógica de negocio
-│ │ ├── contact/ # Controlador de contacto
-│ │ ├── order/ # Controlador de pedidos
-│ │ ├── product/ # Controlador de productos
-│ │ └── user/ # Controlador de usuarios
-│ ├── helpers/ # Funciones auxiliares
-│ ├── middleware/ # Middlewares (auth, admin)
-│ ├── models/ # Modelos de MongoDB
-│ │ ├── cartProduct.js
-│ │ ├── orderProductModel.js
-│ │ ├── productModel.js
-│ │ └── userModel.js
-│ ├── routes/ # Rutas de la API
-│ ├── .env # Variables de entorno
-│ ├── index.js # Entry point
-│ └── package.json
-│
-├── frontend/
-│ ├── public/ # Archivos estáticos
-│ ├── src/
-│ │ ├── assest/ # Imágenes y recursos
-│ │ ├── components/ # Componentes reutilizables
-│ │ ├── context/ # Context API
-│ │ ├── helpers/ # Funciones auxiliares
-│ │ ├── pages/ # Páginas principales
-│ │ ├── stores/ # Redux stores
-│ │ ├── App.js # Componente raíz
-│ │ ├── index.js # Entry point
-│ │ └── common.js # URLs de la API
-│ ├── .env # Variables de entorno
-│ ├── tailwind.config.js
-│ └── package.json
-│
-└── README.md
-
-
----
-
 ## 🚀 Instalación
 
 ### Requisitos Previos
@@ -207,14 +164,4 @@ Este proyecto es propiedad de AMRY LUXE.
 Queda prohibida su reproducción total o parcial sin autorización.
 
 
-<p align="center">
-Hecho con ❤️ en Lima, Perú
-</p>
-
-<p align="center">
-<a href="https://github.com/karlosystem">
-<img src="https://img.shields.io/badge/GitHub-karlosystem-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
-</p>
-```
 
