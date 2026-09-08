@@ -110,3 +110,111 @@ La plataforma permite a los usuarios explorar colecciones de sweaters, tops, ves
 ---
 
 ## 📂 Estructura del Proyecto
+
+AMRYLUXE MERN ECOMMERCE/
+├── backend/
+│ ├── config/ # Configuración (DB, Stripe)
+│ ├── controllers/ # Lógica de negocio
+│ │ ├── contact/ # Controlador de contacto
+│ │ ├── order/ # Controlador de pedidos
+│ │ ├── product/ # Controlador de productos
+│ │ └── user/ # Controlador de usuarios
+│ ├── helpers/ # Funciones auxiliares
+│ ├── middleware/ # Middlewares (auth, admin)
+│ ├── models/ # Modelos de MongoDB
+│ │ ├── cartProduct.js
+│ │ ├── orderProductModel.js
+│ │ ├── productModel.js
+│ │ └── userModel.js
+│ ├── routes/ # Rutas de la API
+│ ├── .env # Variables de entorno
+│ ├── index.js # Entry point
+│ └── package.json
+│
+├── frontend/
+│ ├── public/ # Archivos estáticos
+│ ├── src/
+│ │ ├── assest/ # Imágenes y recursos
+│ │ ├── components/ # Componentes reutilizables
+│ │ ├── context/ # Context API
+│ │ ├── helpers/ # Funciones auxiliares
+│ │ ├── pages/ # Páginas principales
+│ │ ├── stores/ # Redux stores
+│ │ ├── App.js # Componente raíz
+│ │ ├── index.js # Entry point
+│ │ └── common.js # URLs de la API
+│ ├── .env # Variables de entorno
+│ ├── tailwind.config.js
+│ └── package.json
+│
+└── README.md
+
+
+---
+
+## 🚀 Instalación
+
+### Requisitos Previos
+- **Node.js** v18 o superior
+- **MongoDB Atlas** (cuenta gratuita)
+- **Stripe** (cuenta de prueba)
+- **Cloudinary** (cuenta gratuita)
+- **Git**
+
+### 1. Clonar el Repositorio
+
+```bash
+git clone https://github.com/karlosystem/AMRYLUX-TIENDA-CROCHET.git
+cd AMRYLUX-TIENDA-CROCHET
+
+cd backend
+npm install
+
+MONGODB_URI=tu_uri_de_mongodb_atlas
+TOKEN_SECRET_KEY=tu_clave_secreta_jwt
+FRONTEND_URL=http://localhost:3000
+
+STRIPE_SECRET_KEY=tu_clave_secreta_stripe
+STRIPE_ENPOINT_WEBHOOK_SECRET_KEY=tu_webhook_secret
+
+# Email Configuration (Gmail)
+EMAIL_USER=tu_email@gmail.com
+EMAIL_PASS=tu_contraseña_de_aplicacion
+EMAIL_FROM=AMRY LUXE <tu_email@gmail.com>
+
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=tu_email@gmail.com
+SMTP_PASS=tu_contraseña_de_aplicacion
+
+cd ../frontend
+npm install
+
+cd backend
+npm run dev
+# El servidor se ejecutará en http://localhost:8080
+
+👨‍ Desarrollador
+Carlos Alberto Marquina Ch.
+🌐 Web: www.carlos-marquina.com
+💼 GitHub: karlosystem
+📧 Email: karlosystem@gmail.com
+📍 Ubicación: Lima, Perú
+
+© 2026 AMRYLUXE — Todos los derechos reservados.
+
+Este proyecto es propiedad de AMRY LUXE.
+Queda prohibida su reproducción total o parcial sin autorización.
+
+
+<p align="center">
+Hecho con ❤️ en Lima, Perú
+</p>
+
+<p align="center">
+<a href="https://github.com/karlosystem">
+<img src="https://img.shields.io/badge/GitHub-karlosystem-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+</p>
+```
+
