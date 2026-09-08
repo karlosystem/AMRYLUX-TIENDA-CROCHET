@@ -1,0 +1,127 @@
+# ==================== NODE.JS ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnp
+.pnp.js
+
+# ==================== BACKEND ====================
+backend/node_modules/
+backend/package-lock.json
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+backend/logs/
+backend/*.log
+
+# ==================== FRONTEND ====================
+frontend/node_modules/
+frontend/package-lock.json
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/build/
+frontend/dist/
+frontend/.cache/
+
+# ==================== VARIABLES DE ENTORNO (Raíz) ====================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==================== EDITORES DE CÓDIGO ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==================== LOGS ====================
+logs/
+*.log
+lerna-debug.log*
+
+# ==================== COBERTURA DE TESTS ====================
+coverage/
+.nyc_output
+
+# ==================== TEMPORALES Y CACHE ====================
+tmp/
+temp/
+.cache/
+.parcel-cache/
+
+# ==================== IDE ====================
+.project
+.classpath
+.cproject
+.settings/
+
+# ==================== DOCUMENTOS SENSIBLES (NO SUBIR) ====================
+CLAVE DE ACCESO PARA GMAIL.txt
+CLAVE DE GMAIL PARA EMAIL.PNG
+claves de STRIPE*.txt
+GIT HUB repositorio.txt
+login STRIPE.PNG
+PAGO CON STRIPE.txt
+IMG_0125.png
+
+# ==================== DOCUMENTOS Y PLANTILLAS (NO SUBIR) ====================
+PLANTILLA-HOME.pdf
+RECOMENDACIONES DE PLANTILLA.odt
+template-fashion.zip
+template-fashion/
+VIDEO YOUTUBE.txt
+
+# ==================== CARPETA DE IMÁGENES DE PRENDAS (NO SUBIR - Están en Cloudinary) ====================
+IMAGENES DE PRENDAS/
+"IMAGENES DE PRENDAS"/
+
+# ==================== BACKUPS ====================
+*.bak
+*.backup
+backup/
+backups/
+frontend/backup*/
+frontend/backup originala de FrontEnd/
+*/backup*/
+*/backup originala de FrontEnd/
+
+# ==================== ARCHIVOS DE IMÁGENES GRANDES ====================
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+!frontend/public/favicon.ico
+!frontend/public/*.png
+
+# ==================== ZIP Y COMPRESIONES ====================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ==================== ARCHIVOS CON NOMBRES MUY LARGOS (Windows) ====================
+# Evita errores de "Filename too long" en Windows
+frontend/src/assest/products/processor/
+frontend/src/assest/products/camera/
+
+# ==================== OTROS ====================
+*.tgz
+*.tar
