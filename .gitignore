@@ -88,7 +88,6 @@ VIDEO YOUTUBE.txt
 
 # ==================== CARPETA DE IMÁGENES DE PRENDAS (NO SUBIR - Están en Cloudinary) ====================
 IMAGENES DE PRENDAS/
-"IMAGENES DE PRENDAS"/
 
 # ==================== BACKUPS ====================
 *.bak
@@ -100,28 +99,33 @@ frontend/backup originala de FrontEnd/
 */backup*/
 */backup originala de FrontEnd/
 
-# ==================== ARCHIVOS DE IMÁGENES GRANDES ====================
-*.webp
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
-*.ico
-!frontend/public/favicon.ico
-!frontend/public/*.png
-
 # ==================== ZIP Y COMPRESIONES ====================
 *.zip
 *.tar.gz
 *.rar
 *.7z
+*.tgz
+*.tar
 
 # ==================== ARCHIVOS CON NOMBRES MUY LARGOS (Windows) ====================
 # Evita errores de "Filename too long" en Windows
 frontend/src/assest/products/processor/
 frontend/src/assest/products/camera/
 
-# ==================== OTROS ====================
-*.tgz
-*.tar
+# ==================== IMÁGENES DE PRODUCTOS (solo las de assest/products) ====================
+# Excluir imágenes de productos de prueba (no las del proyecto real)
+frontend/src/assest/products/**/*.png
+frontend/src/assest/products/**/*.jpg
+frontend/src/assest/products/**/*.jpeg
+frontend/src/assest/products/**/*.webp
+
+# ==================== PERMITIR IMÁGENES IMPORTANTES DEL PROYECTO ====================
+# Estas SÍ deben subirse al repositorio
+!frontend/public/favicon.ico
+!frontend/public/*.png
+!screenshots/
+!screenshots/**/*.png
+!frontend/src/assest/home/**/*.png
+!frontend/src/assest/banner/**/*.png
+!frontend/src/assest/banner/**/*.jpg
+!frontend/src/assest/banner/**/*.webp
