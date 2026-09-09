@@ -34,6 +34,152 @@ La plataforma permite a los usuarios explorar colecciones de sweaters, tops, ves
 
 ## ✨ Características Principales
 
+---
+
+## 📸 Capturas de Pantalla
+
+###  Página de Inicio
+
+![Página de Inicio - AMRY LUXE](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/home.png)
+
+**Características:**
+- Banner principal con carrusel automático
+- Navegación intuitiva por categorías
+- Diseño responsive y elegante
+- Acceso rápido a colecciones destacadas
+
+---
+
+### 📂 Categorías de Productos
+
+![Categorías - Sweater, Top, Vestido](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/categorias.png)
+
+**Explora por categorías:**
+- Sweaters
+- Tops & Blusas
+- Vestidos
+- Enterizos
+- Y más...
+
+---
+
+### 🛍️ Listado de Prendas
+
+![Listado de Prendas con Filtros](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/listado_prendas.png)
+
+**Funcionalidades:**
+- Filtros por categoría
+- Ordenamiento por precio
+- Vista previa rápida de productos
+- Paginación optimizada
+
+---
+
+### 🔍 Detalle de Producto
+
+![Detalle de Producto con Zoom](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/detalles.png)
+
+**Características del producto:**
+- Zoom de imágenes interactivo
+- Galería de fotos múltiples
+- Selector de tallas
+- Información de stock
+- Descripción detallada
+- Botón de WhatsApp directo
+
+---
+
+### 🛒 Carrito de Compras
+
+![Carrito de Compras](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/carrito.png)
+
+**Gestión del carrito:**
+- Agregar/eliminar productos
+- Modificar cantidades
+- Cálculo automático de totales
+- Envío gratis en pedidos > S/ 100
+
+---
+
+### 💳 Proceso de Pago
+
+![Pago con Stripe](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/pagar.png)
+
+**Pasarela de pagos segura:**
+- Integración con Stripe
+- Tarjetas de crédito/débito
+- Proceso de checkout optimizado
+- Confirmación automática
+
+---
+
+### 🎁 Página de Ofertas
+
+![Ofertas Especiales](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/ofertas.png)
+
+**Ofertas especiales:**
+- Productos en liquidación
+- Descuentos destacados
+- Badges de oferta visibles
+
+---
+
+### 👤 Login de Usuario
+
+![Página de Login](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/login.png)
+
+**Acceso seguro:**
+- Inicio de sesión
+- Registro de nuevos usuarios
+- Recuperación de contraseña
+
+---
+
+### 📞 Página de Contacto
+
+![Contáctenos](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/contactenos.png)
+
+**Canales de comunicación:**
+- Formulario de contacto
+- Información de ubicación
+- Redes sociales
+- WhatsApp Business
+
+---
+
+### 🛍️ Panel de Administración
+
+#### Agregar Prendas
+
+![Panel Admin - Agregar Prendas](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/agregar_prendas.png)
+
+**Gestión de productos:**
+- CRUD completo de productos
+- Subida de imágenes a Cloudinary
+- Configuración de stock
+- Precios y descuentos
+- SEO personalizado
+
+#### Gestión de Usuarios
+
+![Panel Admin - Usuarios](https://raw.githubusercontent.com/karlosystem/AMRYLUX-TIENDA-CROCHET/main/screenshots/usuarios.png)
+
+**Administración de usuarios:**
+- Lista de usuarios registrados
+- Roles y permisos
+- Historial de pedidos
+
+---
+
+## 📱 Diseño Responsive
+
+El proyecto está totalmente optimizado para:
+-  **Móvil** (320px - 768px)
+- 📱 **Tablet** (768px - 1024px)  
+- 💻 **Desktop** (1024px+)
+
+---
+
 ### 🛍️ Tienda Online
 - **Catálogo de productos** organizado por categorías (Sweaters, Tops, Vestidos, Enterizos, Blusas, etc.)
 - **Filtros avanzados** por categoría, precio (menor a mayor / mayor a menor)
