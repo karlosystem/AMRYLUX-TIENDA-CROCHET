@@ -1,0 +1,22 @@
+{
+  "services": {
+    "frontend": {
+      "root": "frontend",
+      "framework": "create-react-app"
+    },
+    "backend": {
+      "root": "backend",
+      "runtime": "@vercel/node"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "backend"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "frontend"
+    }
+  ]
+}
