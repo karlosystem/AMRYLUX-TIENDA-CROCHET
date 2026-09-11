@@ -1,4 +1,5 @@
-const backendDomin = "http://localhost:8080"
+// ✅ CORRECCIÓN: Usar la variable de entorno de Vercel, con fallback a localhost para desarrollo local
+const backendDomin = process.env.REACT_APP_BACKEND_URL || "http://localhost:8080";
 
 const SummaryApi = {
     signUP : {
